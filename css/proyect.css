@@ -1,0 +1,171 @@
+@font-face{
+    font-family: "grotesk";
+    src:url("../fonts/grotesk.otf");
+}
+.contain{
+  padding-top: 9%;
+  margin-left: 1%;
+  background-color: white;
+}
+.contains{
+  background-color: white;
+}
+.imgeprin{
+  margin-bottom: 9%;
+}
+.trello{
+  width: 90%;
+}
+.trello:hover{
+  background-position: center;
+  background-size: cover;
+  margin-left: 9%; 
+}
+.cajita{
+    margin-bottom: 35px;
+    background-color: white;
+    padding:0 !important;
+}
+
+.container{
+	z-index: 100;
+	position: absolute;
+	margin-top: 9%;
+	margin-left:6%;
+}
+.text{
+  margin-top: 6%;
+  margin-bottom: 5%;
+}
+.icons{
+  margin-left: 20%;
+  width: 50%;
+}
+.a{
+  margin-top: 12%;
+}
+.b{
+  margin-top: 11%
+}
+.c{
+  margin-top: 2%;
+}
+.co{
+  width: 25%;
+  float: left;
+  border-radius: 50%;
+}
+.co:hover{
+  animation-name: rubberBand;
+}
+  .animated {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+/*modal*/
+.modal-dialog{
+  width: 70%;
+}
+.modal-content{
+  height: 540px;
+}
+.letra {
+  font-family: "grotesk";
+  font-size: 22px;
+}
+.letraModal{
+  font-family: "grotesk";
+  font-size: 4em;
+}
+
+
+@keyframes rubberBand {
+  0% {transform: scale(1);}
+  30% {transform: scaleX(1.25) scaleY(0.75);}
+  40% {transform: scaleX(0.75) scaleY(1.25);}
+  60% {transform: scaleX(1.15) scaleY(0.85);}
+  100% {transform: scale(1);}
+}
+.imagenModal{
+  width: 80%;
+  margin-bottom: 2%;
+}
+.imam{
+  height:370px;
+}
+.shadow{
+  width: 60%;
+    height: 400px;
+    padding: 15px;
+    background-color:  #f31d25;
+    box-shadow: 20px 20px;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.hiden{
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+.hidena{
+  padding-top: 10%;
+}
+.hiden-b{
+  margin-left: -100px;
+}
+/*  capa hover con la descripcion de cada miniatura */
+
+@media (max-width: 736px){
+.container{
+    margin-top:20%;
+    margin-left: 0px;
+    z-index: 100;
+    position: absolute;
+}
+
+.texto {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 2em;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-family: "grotesk";
+}
+.modal-dialog{
+  width: 90%;
+  margin-top: 25%;
+  margin-left: 6%;
+}
+.modal-content{
+  height: 370px;
+}
+.letra {
+  font-family: "grotesk";
+  font-size: 15px;
+}
+.letraModal{
+  font-family: "grotesk";
+  font-size: 2em;
+}
+.shadow{
+    width: 85%;
+    height: 250px;
+    margin-top: 25%;
+    margin-left: 9%;
+}
+.hiden{
+  display: none;
+}
+.imagenModal{
+ display: none;
+}
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  .hiden{
+    display: none;
+  }
+}
